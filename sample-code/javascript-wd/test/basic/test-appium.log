@@ -1,0 +1,267 @@
+[HTTP] --> POST /wd/hub/session
+[HTTP] {"desiredCapabilities":{"platformName":"Android","platformVersion":"7.0","deviceName":"Redmi_Note_4X","udid":"99bee08a0604","appActivity":"com.tencent.mm.ui.LauncherUI","appPackage":"com.tencent.mm","noReset":true,"automationName":"UiAutomator2","app":""}}
+[debug] [MJSONWP] Calling AppiumDriver.createSession() with args: [{"platformName":"Android","platformVersion":"7.0","deviceName":"Redmi_Note_4X","udid":"99bee08a0604","appActivity":"com.tencent.mm.ui.LauncherUI","appPackage":"com.tencent.mm","noReset":true,"automationName":"UiAutomator2","app":""},null,null]
+[debug] [BaseDriver] Event 'newSessionRequested' logged at 1530081959728 (14:45:59 GMT+0800 (中国标准时间))
+[Appium] Creating new AndroidUiautomator2Driver (v1.9.0) session
+[Appium] Capabilities:
+[Appium]   platformName: Android
+[Appium]   platformVersion: 7.0
+[Appium]   deviceName: Redmi_Note_4X
+[Appium]   udid: 99bee08a0604
+[Appium]   appActivity: com.tencent.mm.ui.LauncherUI
+[Appium]   appPackage: com.tencent.mm
+[Appium]   noReset: true
+[Appium]   automationName: UiAutomator2
+[Appium]   app: 
+[debug] [BaseDriver] Creating session with MJSONWP desired capabilities: {"platformName":"Android","...
+[BaseDriver] Session created with session id: 939feb23-738d-49a3-8f2d-360921ce2d03
+[debug] [AndroidDriver] Getting Java version
+[AndroidDriver] Java version is: 1.8.0_172
+[ADB] Checking whether adb is present
+[ADB] Using adb from /Volumes/MacintoshHD/LinkSSD/Rice/Library/Android/sdk/platform-tools/adb
+[AndroidDriver] Retrieving device list
+[debug] [ADB] Trying to find a connected android device
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] 1 device(s) connected
+[AndroidDriver] Using device: 99bee08a0604
+[ADB] Checking whether adb is present
+[ADB] Using adb from /Volumes/MacintoshHD/LinkSSD/Rice/Library/Android/sdk/platform-tools/adb
+[debug] [ADB] Setting device id to 99bee08a0604
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] 1 device(s) connected
+[debug] [ADB] Running '/Volumes/MacintoshHD/LinkSSD/Rice/Library/Android/sdk/platform-tools/adb -P 5037 -s 99bee08a0604 shell getprop ro.build.version.sdk'
+[debug] [ADB] Current device property 'ro.build.version.sdk': 24
+[debug] [ADB] Device API level: 24
+[AndroidDriver] No app sent in, not parsing package/activity
+[ADB] Getting device platform version
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] 1 device(s) connected
+[debug] [ADB] Running '/Volumes/MacintoshHD/LinkSSD/Rice/Library/Android/sdk/platform-tools/adb -P 5037 -s 99bee08a0604 shell getprop ro.build.version.release'
+[debug] [ADB] Current device property 'ro.build.version.release': 7.0
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] 1 device(s) connected
+[debug] [ADB] Running '/Volumes/MacintoshHD/LinkSSD/Rice/Library/Android/sdk/platform-tools/adb -P 5037 -s 99bee08a0604 shell wm size'
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] 1 device(s) connected
+[debug] [ADB] Running '/Volumes/MacintoshHD/LinkSSD/Rice/Library/Android/sdk/platform-tools/adb -P 5037 -s 99bee08a0604 shell wm density'
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] 1 device(s) connected
+[debug] [ADB] Running '/Volumes/MacintoshHD/LinkSSD/Rice/Library/Android/sdk/platform-tools/adb -P 5037 -s 99bee08a0604 shell getprop ro.product.model'
+[debug] [ADB] Current device property 'ro.product.model': Redmi Note 4X
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] 1 device(s) connected
+[debug] [ADB] Running '/Volumes/MacintoshHD/LinkSSD/Rice/Library/Android/sdk/platform-tools/adb -P 5037 -s 99bee08a0604 shell getprop ro.product.manufacturer'
+[debug] [ADB] Current device property 'ro.product.manufacturer': Xiaomi
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] 1 device(s) connected
+[debug] [ADB] Running '/Volumes/MacintoshHD/LinkSSD/Rice/Library/Android/sdk/platform-tools/adb -P 5037 -s 99bee08a0604 shell am force-stop io.appium.uiautomator2.server'
+[debug] [ADB] Checking app cert for /usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v1.7.0.apk
+[ADB] Using apksigner from /Volumes/MacintoshHD/LinkSSD/Rice/Library/Android/sdk/build-tools/27.0.3/apksigner
+[ADB] Using apksigner from /Volumes/MacintoshHD/LinkSSD/Rice/Library/Android/sdk/build-tools/27.0.3/apksigner
+[debug] [ADB] Starting '/Volumes/MacintoshHD/LinkSSD/Rice/Library/Android/sdk/build-tools/27.0.3/apksigner' with args 'verify,--print-certs,/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v1.7.0.apk'
+[debug] [ADB] '/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v1.7.0.apk' is already signed.
+[debug] [ADB] Checking app cert for /usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk
+[ADB] Using apksigner from /Volumes/MacintoshHD/LinkSSD/Rice/Library/Android/sdk/build-tools/27.0.3/apksigner
+[ADB] Using apksigner from /Volumes/MacintoshHD/LinkSSD/Rice/Library/Android/sdk/build-tools/27.0.3/apksigner
+[debug] [ADB] Starting '/Volumes/MacintoshHD/LinkSSD/Rice/Library/Android/sdk/build-tools/27.0.3/apksigner' with args 'verify,--print-certs,/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk'
+[debug] [ADB] '/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk' is already signed.
+[debug] [ADB] Getting install status for io.appium.uiautomator2.server
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] 1 device(s) connected
+[debug] [ADB] Running '/Volumes/MacintoshHD/LinkSSD/Rice/Library/Android/sdk/platform-tools/adb -P 5037 -s 99bee08a0604 shell pm list packages io.appium.uiautomator2.server'
+[debug] [ADB] App is installed
+[debug] [ADB] Getting package info for 'io.appium.uiautomator2.server'
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] 1 device(s) connected
+[debug] [ADB] Running '/Volumes/MacintoshHD/LinkSSD/Rice/Library/Android/sdk/platform-tools/adb -P 5037 -s 99bee08a0604 shell dumpsys package io.appium.uiautomator2.server'
+[ADB] Checking whether aapt is present
+[ADB] Using aapt from /Volumes/MacintoshHD/LinkSSD/Rice/Library/Android/sdk/build-tools/27.0.3/aapt
+[debug] [ADB] The installed 'io.appium.uiautomator2.server' package does not require upgrade ('1.7.0' >= '1.7.0')
+[debug] [ADB] Getting install status for io.appium.uiautomator2.server.test
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] 1 device(s) connected
+[debug] [ADB] Running '/Volumes/MacintoshHD/LinkSSD/Rice/Library/Android/sdk/platform-tools/adb -P 5037 -s 99bee08a0604 shell pm list packages io.appium.uiautomator2.server.test'
+[debug] [ADB] App is installed
+[debug] [ADB] Getting package info for 'io.appium.uiautomator2.server.test'
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] 1 device(s) connected
+[debug] [ADB] Running '/Volumes/MacintoshHD/LinkSSD/Rice/Library/Android/sdk/platform-tools/adb -P 5037 -s 99bee08a0604 shell dumpsys package io.appium.uiautomator2.server.test'
+[ADB] Checking whether aapt is present
+[ADB] Using aapt from /Volumes/MacintoshHD/LinkSSD/Rice/Library/Android/sdk/build-tools/27.0.3/aapt
+[ADB] Cannot read version codes of '/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk' and/or 'io.appium.uiautomator2.server.test'
+[ADB] Cannot read version names of '/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk' and/or 'io.appium.uiautomator2.server.test'. Assuming correct app version is already installed
+[debug] [UiAutomator2] Waiting up to 20000ms for instrumentation 'io.appium.uiautomator2.server.test/android.support.test.runner.AndroidJUnitRunner' to be available
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] 1 device(s) connected
+[debug] [ADB] Running '/Volumes/MacintoshHD/LinkSSD/Rice/Library/Android/sdk/platform-tools/adb -P 5037 -s 99bee08a0604 shell pm list instrumentation'
+[debug] [UiAutomator2] Instrumentation 'io.appium.uiautomator2.server.test/android.support.test.runner.AndroidJUnitRunner' available
+[debug] [ADB] Running '/Volumes/MacintoshHD/LinkSSD/Rice/Library/Android/sdk/platform-tools/adb -P 5037 -s 99bee08a0604 wait-for-device'
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] 1 device(s) connected
+[debug] [ADB] Running '/Volumes/MacintoshHD/LinkSSD/Rice/Library/Android/sdk/platform-tools/adb -P 5037 -s 99bee08a0604 shell echo ping'
+[debug] [AndroidDriver] Pushing settings apk to device...
+[debug] [ADB] Getting install status for io.appium.settings
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] 1 device(s) connected
+[debug] [ADB] Running '/Volumes/MacintoshHD/LinkSSD/Rice/Library/Android/sdk/platform-tools/adb -P 5037 -s 99bee08a0604 shell pm list packages io.appium.settings'
+[debug] [ADB] App is installed
+[debug] [ADB] Getting package info for 'io.appium.settings'
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] 1 device(s) connected
+[debug] [ADB] Running '/Volumes/MacintoshHD/LinkSSD/Rice/Library/Android/sdk/platform-tools/adb -P 5037 -s 99bee08a0604 shell dumpsys package io.appium.settings'
+[ADB] Checking whether aapt is present
+[ADB] Using aapt from /Volumes/MacintoshHD/LinkSSD/Rice/Library/Android/sdk/build-tools/27.0.3/aapt
+[debug] [ADB] The installed 'io.appium.settings' package does not require upgrade ('2.3.0' >= '2.3.0')
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] 1 device(s) connected
+[debug] [ADB] Running '/Volumes/MacintoshHD/LinkSSD/Rice/Library/Android/sdk/platform-tools/adb -P 5037 -s 99bee08a0604 shell ps'
+[debug] [AndroidDriver] io.appium.settings is already running. There is no need to reset its permissions.
+[debug] [ADB] Device API level: 24
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] 1 device(s) connected
+[debug] [ADB] Running '/Volumes/MacintoshHD/LinkSSD/Rice/Library/Android/sdk/platform-tools/adb -P 5037 -s 99bee08a0604 shell appops set io.appium.settings android\:mock_location allow'
+[AndroidDriver] setDeviceLanguageCountry requires language or country.
+[AndroidDriver] Got language: 'null' and country: 'null'
+[debug] [Logcat] Starting logcat capture
+[debug] [AndroidDriver] Pushing unlock helper app to device...
+[debug] [ADB] Getting install status for io.appium.unlock
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] 1 device(s) connected
+[debug] [ADB] Running '/Volumes/MacintoshHD/LinkSSD/Rice/Library/Android/sdk/platform-tools/adb -P 5037 -s 99bee08a0604 shell pm list packages io.appium.unlock'
+[debug] [ADB] App is installed
+[debug] [ADB] Getting package info for 'io.appium.unlock'
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] 1 device(s) connected
+[debug] [ADB] Running '/Volumes/MacintoshHD/LinkSSD/Rice/Library/Android/sdk/platform-tools/adb -P 5037 -s 99bee08a0604 shell dumpsys package io.appium.unlock'
+[ADB] Checking whether aapt is present
+[ADB] Using aapt from /Volumes/MacintoshHD/LinkSSD/Rice/Library/Android/sdk/build-tools/27.0.3/aapt
+[debug] [ADB] The installed 'io.appium.unlock' package does not require upgrade ('2.0.0' >= '2.0.0')
+[debug] [UiAutomator2] Forwarding UiAutomator2 Server port 6790 to 8200
+[debug] [ADB] Forwarding system: 8200 to device: 6790
+[debug] [ADB] Running '/Volumes/MacintoshHD/LinkSSD/Rice/Library/Android/sdk/platform-tools/adb -P 5037 -s 99bee08a0604 forward tcp\:8200 tcp\:6790'
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] 1 device(s) connected
+[debug] [ADB] Running '/Volumes/MacintoshHD/LinkSSD/Rice/Library/Android/sdk/platform-tools/adb -P 5037 -s 99bee08a0604 shell rm -rf /data/local/tmp/strings.json'
+[debug] [UiAutomator2] No app capability. Assuming it is already on the device
+[debug] [ADB] Checking app cert for null
+[debug] [ADB] 'null' doesn't exist
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] 1 device(s) connected
+[debug] [ADB] Running '/Volumes/MacintoshHD/LinkSSD/Rice/Library/Android/sdk/platform-tools/adb -P 5037 -s 99bee08a0604 shell am force-stop io.appium.uiautomator2.server'
+[UiAutomator2] Starting uiautomator2 server 1.7.0
+[UiAutomator2] Using UIAutomator2 server from '/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v1.7.0.apk' and test from '/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk'
+[UiAutomator2] Running command: 'adb -s 99bee08a0604 shell am instrument -w io.appium.uiautomator2.server.test/android.support.test.runner.AndroidJUnitRunner'
+[UiAutomator2] Waiting up to 20000ms for UiAutomator2 to be online...
+[debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:8200/wd/hub/status] with no body
+[debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:8200/wd/hub/status] with no body
+[debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:8200/wd/hub/status] with no body
+[debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:8200/wd/hub/status] with no body
+[debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"SESSIONID\",\"status\":0,\"value\":\"Status Invoked\"}"
+[debug] [JSONWP Proxy] Proxying [POST /session] to [POST http://localhost:8200/wd/hub/session] with body: {"desiredCapabilities":{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"Android","platformVersion":"7.0","deviceName":"Redmi_Note_4X","udid":"99bee08a0604","appActivity":"com.tencent.mm.ui.LauncherUI","appPackage":"com.tencent.mm","noReset":true,"automationName":"UiAutomator2","app":""},"platformName":"Android","platformVersion":"7.0","deviceName":"99bee08a0604","udid":"99bee08a0604","appActivity":"com.tencent.mm.ui.LauncherUI","appPackage":"com.tencent.mm","noReset":true,"automationName":"UiAutomator2","app":"","deviceUDID":"99bee08a0604","deviceScreenSize":"1080x1920","deviceScreenDensity":480,"deviceModel":"Redmi Note 4X","deviceManufacturer":"Xiaomi"}}
+[debug] [JSONWP Proxy] Got response with status 200: {"sessionId":"fdc15f3f-27c4-4093-aed9-2ad6fb61aba4","status":0,"value":"Created Session"}
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] 1 device(s) connected
+[debug] [ADB] Running '/Volumes/MacintoshHD/LinkSSD/Rice/Library/Android/sdk/platform-tools/adb -P 5037 -s 99bee08a0604 shell dumpsys window'
+[AndroidDriver] Screen already unlocked, doing nothing
+[UiAutomator2] UiAutomator2 did not start the activity we were waiting for, 'com.tencent.mm/com.tencent.mm.ui.LauncherUI'. Starting it ourselves
+[debug] [ADB] Device API level: 24
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] 1 device(s) connected
+[debug] [ADB] Running '/Volumes/MacintoshHD/LinkSSD/Rice/Library/Android/sdk/platform-tools/adb -P 5037 -s 99bee08a0604 shell am start -W -n com.tencent.mm/com.tencent.mm.ui.LauncherUI -S -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000'
+[debug] [JSONWP Proxy] Proxying [GET /appium/device/pixel_ratio] to [GET http://localhost:8200/wd/hub/session/fdc15f3f-27c4-4093-aed9-2ad6fb61aba4/appium/device/pixel_ratio] with body: {}
+[debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"fdc15f3f-27c4-4093-aed9-2ad6fb61aba4\",\"status\":0,\"value\":3}"
+[debug] [JSONWP Proxy] Proxying [GET /appium/device/system_bars] to [GET http://localhost:8200/wd/hub/session/fdc15f3f-27c4-4093-aed9-2ad6fb61aba4/appium/device/system_bars] with body: {}
+[debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"fdc15f3f-27c4-4093-aed9-2ad6fb61aba4\",\"status\":0,\"value\":{\"statusBar\":60}}"
+[debug] [JSONWP Proxy] Proxying [GET /window/current/size] to [GET http://localhost:8200/wd/hub/session/fdc15f3f-27c4-4093-aed9-2ad6fb61aba4/window/current/size] with body: {}
+[debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"fdc15f3f-27c4-4093-aed9-2ad6fb61aba4\",\"status\":0,\"value\":{\"height\":1920,\"width\":1080}}"
+[Appium] New AndroidUiautomator2Driver session created successfully, session 939feb23-738d-49a3-8f2d-360921ce2d03 added to master session list
+[debug] [BaseDriver] Event 'newSessionStarted' logged at 1530081975879 (14:46:15 GMT+0800 (中国标准时间))
+[debug] [MJSONWP] Responding to client with driver.createSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"Android","platformVersion":"7.0","deviceName":"Redmi_Note_4X","udid":"99bee08a0604","appActivity":"com.tencent.mm.ui.LauncherUI","appPackage":"com.tencent.mm","noReset":true,"automationName":"UiAutomator2","app":""},"platformName":"Android","platformVersion":"7.0","deviceName":"99bee08a0604","udid":"99bee08a0604","appActivity":"com.tencent.mm.ui.LauncherUI","appPackage":"com.tencent.mm","noReset":true,"automationName":"UiAutomator2","app":"","deviceUDID":"99bee08a0604","deviceScreenSize":"1080x1920","deviceScreenDensity":480,"deviceModel":"Redmi Note 4X","deviceManufacturer":"Xiaomi","pixelRatio":3,"statBarHeight":60,"viewportRect":{"left":0,"top":60,"width":1080,"height":1860}}
+[HTTP] <-- POST /wd/hub/session 200 16155 ms - 981
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/939feb23-738d-49a3-8f2d-360921ce2d03/element
+[HTTP] {"using":"xpath","value":"//android.view.View[@resource-id=\"com.tencent.mm:id/as6\" and @text=\"Bingo\"]"}
+[debug] [MJSONWP] Calling AppiumDriver.findElement() with args: ["xpath","//android.view.View[@resource-id=\"com.tencent.mm:id/as6\" and @text=\"Bingo\"]","939feb23-738d-49a3-8f2d-360921ce2d03"]
+[debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[debug] [BaseDriver] Waiting up to 0 ms for condition
+[debug] [JSONWP Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/fdc15f3f-27c4-4093-aed9-2ad6fb61aba4/element] with body: {"strategy":"xpath","selector":"//android.view.View[@resource-id=\"com.tencent.mm:id/as6\" and @text=\"Bingo\"]","context":"","multiple":false}
+[debug] [JSONWP Proxy] Got response with status 200: {"sessionId":"fdc15f3f-27c4-4093-aed9-2ad6fb61aba4","status":0,"value":{"ELEMENT":"1afaa43c-2f52-4322-8501-bc3c76c53285"}}
+[debug] [MJSONWP] Responding to client with driver.findElement() result: {"ELEMENT":"1afaa43c-2f52-4322-8501-bc3c76c53285"}
+[HTTP] <-- POST /wd/hub/session/939feb23-738d-49a3-8f2d-360921ce2d03/element 200 899 ms - 122
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/939feb23-738d-49a3-8f2d-360921ce2d03/element/1afaa43c-2f52-4322-8501-bc3c76c53285/click
+[HTTP] {}
+[debug] [MJSONWP] Calling AppiumDriver.click() with args: ["1afaa43c-2f52-4322-8501-bc3c76c53285","939feb23-738d-49a3-8f2d-360921ce2d03"]
+[debug] [JSONWP Proxy] Proxying [POST /element/1afaa43c-2f52-4322-8501-bc3c76c53285/click] to [POST http://localhost:8200/wd/hub/session/fdc15f3f-27c4-4093-aed9-2ad6fb61aba4/element/1afaa43c-2f52-4322-8501-bc3c76c53285/click] with body: {"element":"1afaa43c-2f52-4322-8501-bc3c76c53285"}
+[debug] [JSONWP Proxy] Got response with status 200: {"sessionId":"fdc15f3f-27c4-4093-aed9-2ad6fb61aba4","status":0,"value":true}
+[debug] [MJSONWP] Responding to client with driver.click() result: true
+[HTTP] <-- POST /wd/hub/session/939feb23-738d-49a3-8f2d-360921ce2d03/element/1afaa43c-2f52-4322-8501-bc3c76c53285/click 200 1308 ms - 76
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/939feb23-738d-49a3-8f2d-360921ce2d03/element
+[HTTP] {"using":"id","value":"com.tencent.mm:id/ac8"}
+[debug] [MJSONWP] Calling AppiumDriver.findElement() with args: ["id","com.tencent.mm:id/ac8","939feb23-738d-49a3-8f2d-360921ce2d03"]
+[debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[debug] [BaseDriver] Waiting up to 0 ms for condition
+[debug] [JSONWP Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/fdc15f3f-27c4-4093-aed9-2ad6fb61aba4/element] with body: {"strategy":"id","selector":"com.tencent.mm:id/ac8","context":"","multiple":false}
+[debug] [JSONWP Proxy] Got response with status 200: {"sessionId":"fdc15f3f-27c4-4093-aed9-2ad6fb61aba4","status":0,"value":{"ELEMENT":"4e21b1c6-76aa-49cb-94e6-474d8803130f"}}
+[debug] [MJSONWP] Responding to client with driver.findElement() result: {"ELEMENT":"4e21b1c6-76aa-49cb-94e6-474d8803130f"}
+[HTTP] <-- POST /wd/hub/session/939feb23-738d-49a3-8f2d-360921ce2d03/element 200 459 ms - 122
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/939feb23-738d-49a3-8f2d-360921ce2d03/element/4e21b1c6-76aa-49cb-94e6-474d8803130f/click
+[HTTP] {}
+[debug] [MJSONWP] Calling AppiumDriver.click() with args: ["4e21b1c6-76aa-49cb-94e6-474d8803130f","939feb23-738d-49a3-8f2d-360921ce2d03"]
+[debug] [JSONWP Proxy] Proxying [POST /element/4e21b1c6-76aa-49cb-94e6-474d8803130f/click] to [POST http://localhost:8200/wd/hub/session/fdc15f3f-27c4-4093-aed9-2ad6fb61aba4/element/4e21b1c6-76aa-49cb-94e6-474d8803130f/click] with body: {"element":"4e21b1c6-76aa-49cb-94e6-474d8803130f"}
+[debug] [JSONWP Proxy] Got response with status 200: {"sessionId":"fdc15f3f-27c4-4093-aed9-2ad6fb61aba4","status":0,"value":true}
+[debug] [MJSONWP] Responding to client with driver.click() result: true
+[HTTP] <-- POST /wd/hub/session/939feb23-738d-49a3-8f2d-360921ce2d03/element/4e21b1c6-76aa-49cb-94e6-474d8803130f/click 200 1147 ms - 76
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/939feb23-738d-49a3-8f2d-360921ce2d03/element/4e21b1c6-76aa-49cb-94e6-474d8803130f/value
+[HTTP] {"value":["Hello world!"]}
+[debug] [MJSONWP] Calling AppiumDriver.setValue() with args: [["Hello world!"],"4e21b1c6-76aa-49cb-94e6-474d8803130f","939feb23-738d-49a3-8f2d-360921ce2d03"]
+[debug] [JSONWP Proxy] Proxying [POST /element/4e21b1c6-76aa-49cb-94e6-474d8803130f/value] to [POST http://localhost:8200/wd/hub/session/fdc15f3f-27c4-4093-aed9-2ad6fb61aba4/element/4e21b1c6-76aa-49cb-94e6-474d8803130f/value] with body: {"elementId":"4e21b1c6-76aa-49cb-94e6-474d8803130f","text":"Hello world!","replace":false}
+[debug] [JSONWP Proxy] Got response with status 200: {"sessionId":"fdc15f3f-27c4-4093-aed9-2ad6fb61aba4","status":0,"value":""}
+[debug] [MJSONWP] Responding to client with driver.setValue() result: ""
+[HTTP] <-- POST /wd/hub/session/939feb23-738d-49a3-8f2d-360921ce2d03/element/4e21b1c6-76aa-49cb-94e6-474d8803130f/value 200 563 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/939feb23-738d-49a3-8f2d-360921ce2d03/element
+[HTTP] {"using":"id","value":"com.tencent.mm:id/acd"}
+[debug] [MJSONWP] Calling AppiumDriver.findElement() with args: ["id","com.tencent.mm:id/acd","939feb23-738d-49a3-8f2d-360921ce2d03"]
+[debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[debug] [BaseDriver] Waiting up to 0 ms for condition
+[debug] [JSONWP Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/fdc15f3f-27c4-4093-aed9-2ad6fb61aba4/element] with body: {"strategy":"id","selector":"com.tencent.mm:id/acd","context":"","multiple":false}
+[debug] [JSONWP Proxy] Got response with status 200: {"sessionId":"fdc15f3f-27c4-4093-aed9-2ad6fb61aba4","status":0,"value":{"ELEMENT":"3597fc40-1fad-4713-b742-ae01260f85c6"}}
+[debug] [MJSONWP] Responding to client with driver.findElement() result: {"ELEMENT":"3597fc40-1fad-4713-b742-ae01260f85c6"}
+[HTTP] <-- POST /wd/hub/session/939feb23-738d-49a3-8f2d-360921ce2d03/element 200 964 ms - 122
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/939feb23-738d-49a3-8f2d-360921ce2d03/element/3597fc40-1fad-4713-b742-ae01260f85c6/click
+[HTTP] {}
+[debug] [MJSONWP] Calling AppiumDriver.click() with args: ["3597fc40-1fad-4713-b742-ae01260f85c6","939feb23-738d-49a3-8f2d-360921ce2d03"]
+[debug] [JSONWP Proxy] Proxying [POST /element/3597fc40-1fad-4713-b742-ae01260f85c6/click] to [POST http://localhost:8200/wd/hub/session/fdc15f3f-27c4-4093-aed9-2ad6fb61aba4/element/3597fc40-1fad-4713-b742-ae01260f85c6/click] with body: {"element":"3597fc40-1fad-4713-b742-ae01260f85c6"}
+[debug] [JSONWP Proxy] Got response with status 200: {"sessionId":"fdc15f3f-27c4-4093-aed9-2ad6fb61aba4","status":0,"value":true}
+[debug] [MJSONWP] Responding to client with driver.click() result: true
+[HTTP] <-- POST /wd/hub/session/939feb23-738d-49a3-8f2d-360921ce2d03/element/3597fc40-1fad-4713-b742-ae01260f85c6/click 200 39 ms - 76
+[HTTP] 
+[HTTP] --> DELETE /wd/hub/session/939feb23-738d-49a3-8f2d-360921ce2d03
+[HTTP] {}
+[debug] [MJSONWP] Calling AppiumDriver.deleteSession() with args: ["939feb23-738d-49a3-8f2d-360921ce2d03"]
+[debug] [BaseDriver] Event 'quitSessionRequested' logged at 1530081984351 (14:46:24 GMT+0800 (中国标准时间))
+[Appium] Removing session 939feb23-738d-49a3-8f2d-360921ce2d03 from our master session list
+[debug] [UiAutomator2] Deleting UiAutomator2 session
+[debug] [UiAutomator2] Deleting UiAutomator2 server session
+[debug] [JSONWP Proxy] Proxying [DELETE /] to [DELETE http://localhost:8200/wd/hub/session/fdc15f3f-27c4-4093-aed9-2ad6fb61aba4] with no body
+[debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"fdc15f3f-27c4-4093-aed9-2ad6fb61aba4\",\"status\":0,\"value\":\"Session deleted\"}"
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] 1 device(s) connected
+[debug] [ADB] Running '/Volumes/MacintoshHD/LinkSSD/Rice/Library/Android/sdk/platform-tools/adb -P 5037 -s 99bee08a0604 shell am force-stop com.tencent.mm'
+[debug] [UiAutomator2] [UIAutomator2] io.appium.uiautomator2.server.test.AppiumUiAutomator2Server:.
+[debug] [UiAutomator2] [UIAutomator2] Time: 13.028
+[debug] [UiAutomator2] [UIAutomator2] OK (1 test)
+[debug] [Logcat] Stopping logcat capture
+[debug] [ADB] Removing forwarded port socket connection: 8200 
+[debug] [ADB] Running '/Volumes/MacintoshHD/LinkSSD/Rice/Library/Android/sdk/platform-tools/adb -P 5037 -s 99bee08a0604 forward --remove tcp\:8200'
+[debug] [BaseDriver] Event 'quitSessionFinished' logged at 1530081985411 (14:46:25 GMT+0800 (中国标准时间))
+[debug] [MJSONWP] Received response: null
+[debug] [MJSONWP] But deleting session, so not returning
+[debug] [MJSONWP] Responding to client with driver.deleteSession() result: null
+[HTTP] <-- DELETE /wd/hub/session/939feb23-738d-49a3-8f2d-360921ce2d03 200 1062 ms - 76
+[HTTP] 
